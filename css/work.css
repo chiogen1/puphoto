@@ -1,0 +1,37 @@
+table {
+    table-layout: fixed;
+    color: rgb(255, 255, 255);
+    margin-left: auto;
+    margin-right: auto;
+ }
+ td{
+    border: rgb(188, 247, 255) 3px;
+    border-collapse: collapse;
+    border-style:inherit;
+    text-align: center;
+    margin: 0 auto;
+ }
+  thead {
+      background: rgb(42, 2, 88);
+  }
+
+  tbody {
+      background: rgb(2, 45, 85);
+  }
+
+  tfoot {
+      background: rgb(21, 4, 131);
+  }
+  .workform{
+    color: rgb(109, 221, 255);
+  }
+ button{
+    background-color: rgb(12, 2, 38);
+    border: 1px solid rgb(255, 252, 252);
+    border-radius: 3ch;
+  }
+  h2{
+    border: 1px solid rgb(255, 252, 252);
+  }
+
+

@@ -1,0 +1,67 @@
+.bttab {
+    background-color: rgb(110, 103, 154);
+    margin: 1.5%;
+}
+
+.lighta {
+    color: rgba(246, 254, 255, 0.703);
+}
+
+a {
+    color: rgba(216, 243, 255, 0.588);
+}
+
+ .name{
+    font-size: 30px;;
+     text-align:inherit;
+     margin: 0;
+ }
+ #my_tabs {
+     height: 23em;
+ }
+ img{
+    margin: 1px;
+ }
+ .tabbutton{
+    font-size: 20px;
+ }
+ .row{
+    margin: 2ch;
+ }
+p{
+    text-align: start;
+}
+.ptip {
+    color: rgba(241, 249, 255, 0.749);
+    font-size: 24px;
+}
+.tabhead{
+    background-color: #EEEEEE;
+    padding: 1px 1px;
+
+    right: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+}
+.header__nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav-item {
+     color: #fffdfe;
+     padding: 1px;
+     border-radius: 1px;
+     text-align: center;
+ }
+a {
+    line-height: 34px;
+}
+.hamBar {
+    display: none;
+    width: 34px;
+    height: 34px;
+    align-items: center;
+    justify-content: center;
+}

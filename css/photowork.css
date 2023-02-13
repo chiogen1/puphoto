@@ -1,0 +1,48 @@
+.card-body {
+    font-size: 25px;
+    color: black;
+}
+
+.he {
+    color: rgb(177, 219, 255);
+}
+
+h1,
+h5 {
+    font-weight: bold;
+}
+
+button {
+    margin: auto 10px;
+}
+
+.category-container {
+    border-color: rgb(95, 247, 245);
+    border-width: 5px;
+    border-style: solid;
+    border-radius: 15px;
+    padding: 20px;
+}
+
+p {
+    text-align: left;
+    font-size: 90%;
+}
+
+p.myclock {
+    color: aliceblue !important;
+}
+.card {
+    height: 500px;
+}
+.bttab {
+    background-color: rgb(110, 103, 154);
+}
+
+.lighta {
+    color: rgba(246, 254, 255, 0.703);
+}
+
+a {
+    color: rgba(216, 243, 255, 0.588);
+}

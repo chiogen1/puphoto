@@ -1,0 +1,25 @@
+img {
+    max-width: 95%;
+    height: auto;
+}
+.row {
+    margin: 1.5ch;
+}
+.no{
+    list-style-type:none;
+}
+.no::before{
+    content: "\2022";
+    color: rgb(0, 37, 73);
+    display: inline-block;
+    width: 2.5rem;
+}
+.codea{
+    font-size: 28px;
+        color: rgb(134, 248, 186);  
+    margin-left: 53px;
+    margin-right: 53px;
+}
+.codf{
+    text-align: start;
+}

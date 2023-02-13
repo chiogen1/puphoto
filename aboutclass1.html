@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>111-1社課簡介</title>
+    <!-- 引用bootstrap 5 、 jquery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./css/all.css">
+
+    <script src="./js/clock.js"></script>
+
+    <link rel="stylesheet" href="./css/jquery-ui.css">
+    <script src="./js/jquery-1.10.2.js"></script>
+    <script src="./js/jquery-ui.js"></script>
+
+    <link rel="stylesheet" href="./css/aboutclass.css" />
+</head>
+
+<body>
+    <!--選單start-->
+    <div class="container mainmenu">
+        <nav class="navbar navbar-expand-sm navbar-dark fixed-top bg-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="./index.html">🏠</a>
+                <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse collapse" id="navbarCollapse">
+                    <ul class="navbar-nav me-auto mb-2 mb-md-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="./photowork.html">作品欣賞區</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="./aboutclass2.html">社課簡介</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./team.html">團隊成員</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./work.html">接案相關</a>
+                        </li>
+                    </ul>
+                    <div id="clock"></div>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <!--選單end-->
+    <div>
+        <button class="bttab"><a href="./aboutclass2.html">111-2</a></button>
+        <button class="bttab"><a href="./aboutclass1.html" class="lighta">111-1</a></button>
+    </div>
+    <div id="my_tabs"> <!-- 利用 div 建立標籤頁元件 -->
+        <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+            <div class="container-fluid">
+                <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarCollapse2" aria-controls="navbarCollapse2" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse collapse tabbutton" id="navbarCollapse2">
+                    <ul class="navbar-nav me-auto mb-2 mb-md-0">
+                        <li class="nav-item">
+                            <a href="#class1">基礎攝影</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#class2">光軌攝影</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#class3">微距攝影</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#class4">紅外線攝影</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#class5">街拍攝影</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#class6">靜物攝影</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#class7">底片攝影</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#class8">追焦攝影</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#class9">古箏聯合外拍</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#class10">成果發表週</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <div id="class1">
+            <h5 class="name">基礎攝影</h5>
+            <div class="row">
+                <div class="col-lg-6">
+                    <p>簡介:</p>
+                    <P>這節課我們會先教社員一些相機的原理，並教他們如何使用相機以
+                        及運用攝影的一些基礎知識，像是光圈快門ISO等去拍出想要的照片。</P>
+                </div>
+                <div class="col-lg-6">
+                    <img src="./img/class/photo.jpg" width="90%" alt="範例圖">
+                </div>
+            </div>
+        </div>
+
+        <div id="class2">
+            <h5 class="name">光軌攝影</h5>
+            <div class="row">
+                <div class="col-lg-6">
+                    <p>簡介:</p>
+                    <P>光線是我們日常常見的東西，這節課會教社員在黑暗中的光線拍出線條感，像是用手電筒的光線畫出一
+                        些圖案，或是路上的車子車燈的軌跡等等主題，也透過實際拍攝讓同學學會使用腳架拍攝和相機的設定。</P>
+                </div>
+                <div class="col-lg-6">
+                    <img src="https://live.staticflickr.com/65535/52680417693_f658b6d7f8_h.jpg" width="90%" alt="範例圖">
+                </div>
+            </div>
+        </div>
+
+        <div id="class3">
+            <h5 class="name">微距攝影</h5>
+            <div class="row">
+                <div class="col-lg-6">
+                    <p>簡介:</p>
+                    <P>生活周遭有許多小物值得記錄，這次社課會帶大家使用微距鏡拍一些小物，透過近距離的構圖將物品的細節呈現出來。</P>
+                </div>
+                <div class="col-lg-6">
+                    <img src="https://live.staticflickr.com/65535/52680222959_7ad6677212_h.jpg" width="90%" alt="範例圖">
+                </div>
+            </div>
+        </div>
+
+        <div id="class4">
+            <h5 class="name">紅外線攝影</h5>
+            <div class="row">
+                <div class="col-lg-6">  
+                    <p>簡介:</p>
+                    <P>這節課透過透過紅外線攝影將綠色的樹葉拍成粉、白、黃各種顏色，也透過課程讓社員了解ir相機的操作及原理，以及
+                        拍完後回來可以怎麼修圖。</P>
+                </div>
+                <div class="col-lg-6">
+                    <img src="https://live.staticflickr.com/65535/52676558124_3a4c3ec6e9_h.jpg" width="90%" alt="範例圖">
+                </div>
+            </div>
+        </div>
+
+        <div id="class5">
+            <h5 class="name">街拍攝影</h5>
+            <div class="row">
+                <div class="col-lg-6">
+                    <p>簡介:</p>
+                    <P>透過這節社課讓社員了解街拍的一些構圖及相機設定技巧，讓社員能在平常的夜市中用相機觀察出值得紀錄的事物，也間接
+                        教學了如何用相片去分享台灣的文化。</P>
+                </div>
+                <div class="col-lg-6">
+                    <img src="https://live.staticflickr.com/65535/52679494422_38c40bdbd3_h.jpg" width="90%" alt="範例圖">
+                </div>
+            </div>
+        </div>
+
+        <div id="class6">
+            <h5 class="name">靜物攝影</h5>
+            <div class="row">
+                <div class="col-lg-6">
+                    <p>簡介:</p>
+                    <P>這次社課將會帶社員深入運用光線去營造出有氣氛的畫面，也讓社員更了解社上棚燈及閃燈的運用，而這次的構圖也不侷限
+                        在物品細節上，讓社員可以運用多種物品的組合學習如何將物品擺設的美。</P>
+                </div>
+                <div class="col-lg-6">
+                    <img src="https://live.staticflickr.com/65535/52680512788_7639fe779a_h.jpg" width="90%" alt="範例圖">
+                </div>
+            </div>
+        </div>
+
+        <div id="class7">
+            <h5 class="name">底片攝影</h5>
+            <div class="row">
+                <div class="col-lg-6">
+                    <p>簡介:</p>
+                    <P>底片攝影是攝影的傳統，從自己用底片機拍攝，到調配藥水到進暗房摸黑上片，經過一些沖洗流程最後攢聲影像，再到用
+                        相機轉成數外檔案跟用放大機放像，都有機會在攝影社學習。</P>
+                    <p class="ptip">(備註:會因所有社員狀況調整學習進度，想深入學習完整流程請洽幹部另外討論。)</p>
+                </div>
+                <div class="col-lg-6">
+                    <img src="./img/class/film.jpg" width="35%" alt="範例圖">
+                    <img src="./img/class/film2.jpg" width="35%" alt="範例圖">
+                </div>
+            </div>
+        </div>
+
+        <div id="class8">
+            <h5 class="name">追焦攝影</h5>
+            <div class="row">
+                <div class="col-lg-6">
+                    <p>簡介:</p>
+                    <P>生活中很多動態的事物值得紀錄，像是現在很流行的重機追焦照，這節課會先帶社員拍攝慢一點的玩具火車，
+                        讓社員學會拍動態的技巧後，到外面體驗拍速度比較快的車子。</P>
+                </div>
+                <div class="col-lg-6">
+                    <img src="./img/class/car.jpg" width="90%" alt="範例圖">
+                </div>
+            </div>
+        </div>
+
+        <div id="class9">
+            <h5 class="name">古箏聯合外拍</h5>
+            <div class="row">
+                <div class="col-lg-6">
+                    <p>簡介:</p>
+                    <P>這次與古箏合作帶大家拍攝平常少見的人像題材，透過漢服與古琴當道具讓大家在清水國小與眷村自由發揮，
+                        並透過關卡方式讓大家拍攝多元的主題。</P>
+                </div>
+                <div class="col-lg-6">
+                    <img src="https://live.staticflickr.com/65535/52680565045_b87dd702a4_h.jpg" width="90%" alt="範例圖">
+                </div>
+            </div>
+        </div>
+
+        <div id="class10">
+            <h5 class="name">成果發表週</h5>
+            <div class="row">
+                <div class="col-lg-6">
+                    <p>簡介:</p>
+                    <P>在經過一學期不同主題的社課及回家作業練習後，也讓社員以回憶為主題回整理所學，拍攝出自己的代表作品，
+                        也讓社員們彼此能交流攝影的想法。</P>
+                </div>
+                <div class="col-lg-6">
+                    <img src="./img/class/exhibition.jpg" width="90%" alt="範例圖">
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./js/tab.js"></script>
+    <footer>
+        <div class="row">
+            <div class="col-lg-5">
+                <img src="./img/index/logo.png" alt="logo" width="90%">
+            </div>
+            <div class="col-lg-6">
+                <aside>© All rights reserved. Design : 靜宜攝影</aside>
+                <ul class="box fter">
+                    <li>E-Mail:
+                        <a href="mailto:puphoto@gm.pu.edu.tw"
+                            class="text-reset text-decoration-none text-muted bg-warning">puphoto@gm.pu.edu.tw</a>
+                    </li>
+                    <li>地址:台中市沙鹿區台灣大道七段200號 靜宜大學攝影社 至善024室</li>
+                    <li>值班時間:二三四中午12:10~13:00</li>
+                    <li>FB:Puphoto靜宜攝影社</li>
+                    <li>IG:Puphoto_club</li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+</body>
+</html> 
